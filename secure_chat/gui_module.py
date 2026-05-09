@@ -1,4 +1,4 @@
-"""Tkinter GUI: a startup screen and a chat screen."""
+"""GUI startup screen and chat screen."""
 
 import tkinter as tk
 from tkinter import scrolledtext

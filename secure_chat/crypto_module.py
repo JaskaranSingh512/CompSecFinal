@@ -1,4 +1,4 @@
-"""Crypto stuff for the chat: derive a key, encrypt, decrypt."""
+"""Crypto for the chat"""
 
 import os
 

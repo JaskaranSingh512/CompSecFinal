@@ -1,4 +1,4 @@
-# Secure Chat (CS 4173)
+# Secure Chat
 
 A small two-person chat program. Messages are encrypted end-to-end with
 AES-128-CBC using a key derived from a shared password.
@@ -67,3 +67,9 @@ that went over the wire and the plaintext that was decrypted.
 - If the peer disconnects, the status bar says so - the program does
   not crash.
 - Closing the window cleanly closes the socket.
+
+## Use of AI
+
+-This readme files was made with the help of Opus 4.7 in cursor. - prompt - "Audit the codebase and give me a list of what i need to add to the readme to make sure everything is mentioned in order fro this program to work on a diffrent device
+-Cursor was alos used to autocomplete code in multiple instances within the codebase, as well as suggestions.
+-Cursor was also used for research on how to implemets certain programs and debuggung, for example prompt- "what is the code i have added the crypotography import libaray but i am having issues, here is the error, investigate and report how i can fix this".

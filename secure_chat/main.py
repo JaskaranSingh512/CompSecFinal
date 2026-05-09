@@ -1,4 +1,4 @@
-"""Main: ties the crypto, network, and GUI modules together."""
+"""Main"""
 
 import threading
 
@@ -25,7 +25,7 @@ connected = False
 
 
 def maybe_rotate_key():
-    """Bump the message counter and rotate the key once we hit 10."""
+    """message counter and rotate the key once we hit 10."""
     global counter, epoch, current_key
     counter += 1
     if counter >= ROTATE_EVERY:

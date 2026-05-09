@@ -6,9 +6,7 @@ import threading
 
 
 class PeerConnection:
-    """One side calls host(), the other calls connect(). After that, send()
-    sends a message and the background thread calls on_message_received
-    whenever a full message arrives."""
+    """One side calls host(), the other calls connect()"""
 
     def __init__(self, on_message_received):
         self.on_message_received = on_message_received
